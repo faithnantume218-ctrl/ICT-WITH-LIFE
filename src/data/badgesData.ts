@@ -1,0 +1,68 @@
+import { Badge } from '../types/ict';
+
+export const BADGES: Badge[] = [
+  {
+    id: 'first_step',
+    title: 'Digital Pioneer',
+    description: 'Completed your very first ICT lesson! You took the first step on your digital journey.',
+    icon: 'Sparkles',
+    category: 'starter',
+    pointsReward: 50,
+  },
+  {
+    id: 'hardware_explorer',
+    title: 'Hardware Detective',
+    description: 'Mastered computer parts, input/output devices, and system architecture.',
+    icon: 'Cpu',
+    category: 'hardware',
+    pointsReward: 100,
+  },
+  {
+    id: 'software_savvy',
+    title: 'System Navigator',
+    description: 'Learned how operating systems, files, and folders keep our digital world organized.',
+    icon: 'FolderTree',
+    category: 'software',
+    pointsReward: 100,
+  },
+  {
+    id: 'office_wizard',
+    title: 'Office Productivity Pro',
+    description: 'Successfully completed Microsoft Word, Excel, and PowerPoint basics.',
+    icon: 'FileSpreadsheet',
+    category: 'office',
+    pointsReward: 150,
+  },
+  {
+    id: 'web_navigator',
+    title: 'Internet Explorer',
+    description: 'Mastered web browsing, searching safely, and professional email etiquette.',
+    icon: 'Globe',
+    category: 'network',
+    pointsReward: 100,
+  },
+  {
+    id: 'cyber_sentinel',
+    title: 'Cyber Sentinel',
+    description: 'Defended against scams, phishing, weak passwords, and learned digital safety.',
+    icon: 'ShieldCheck',
+    category: 'cyber',
+    pointsReward: 150,
+  },
+  {
+    id: 'quiz_master',
+    title: 'Quiz Ace',
+    description: 'Scored 80% or higher on an interactive practice assessment test.',
+    icon: 'Award',
+    category: 'starter',
+    pointsReward: 100,
+  },
+  {
+    id: 'ict_graduate',
+    title: 'Certified ICT Scholar',
+    description: 'Completed all core ICT modules and unlocked the official certificate of completion!',
+    icon: 'GraduationCap',
+    category: 'master',
+    pointsReward: 300,
+  },
+];

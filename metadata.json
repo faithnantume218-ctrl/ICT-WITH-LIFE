@@ -1,0 +1,6 @@
+{
+  "name": "ICT Learning Hub",
+  "description": "Interactive educational platform for beginners and students to learn ICT fundamentals, computer hardware, software, office productivity, and cybersecurity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
